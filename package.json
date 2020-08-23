@@ -1,0 +1,30 @@
+{
+  "name": "@beaker/dat-serve-resolve-path",
+  "version": "1.0.1",
+  "description": "Beaker's method to find the file to serve in dat:// requests",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beakerbrowser/dat-serve-resolve-path.git"
+  },
+  "keywords": [
+    "dat"
+  ],
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beakerbrowser/dat-serve-resolve-path/issues"
+  },
+  "homepage": "https://github.com/beakerbrowser/dat-serve-resolve-path#readme",
+  "dependencies": {
+    "parse-dat-url": "^3.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
