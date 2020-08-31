@@ -1,5 +1,5 @@
 const {join} = require('path')
-const parseDatUrl = require('parse-dat-url')
+const parseDatUrl = require('parse-dwebx-urls')
 
 /**
  * @description
@@ -18,10 +18,10 @@ function acceptHeaderExtensions (accept) {
 
 /**
  * @description
- * For a given archive, dat.json, request url, and request Accept header, find the file to serve
- * @param {Object} archive the dat archive to read from
- * @param {Object|undefined} manifest the dat archive's dat.json manifest
- * @param {string|Object} url the request URL (can be pre-parsed by parse-dat-url)
+ * For a given archive, dwebx.json, request url, and request Accept header, find the file to serve
+ * @param {Object} archive the dwebx archive to read from
+ * @param {Object|undefined} manifest the dwebx archive's dwebx.json manifest
+ * @param {string|Object} url the request URL (can be pre-parsed by parse-dwebx-urls)
  * @param {string} acceptHeader the request Accept header
  * @returns {Promise<Object>} returns the Stat object with .path added
  */

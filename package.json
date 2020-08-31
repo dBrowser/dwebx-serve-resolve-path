@@ -1,7 +1,7 @@
 {
-  "name": "@beaker/dat-serve-resolve-path",
-  "version": "1.0.1",
-  "description": "Beaker's method to find the file to serve in dat:// requests",
+  "name": "@dbrowser/dwebx-serve-resolve-path",
+  "version": "1.0.0",
+  "description": "DBrowserX's method to find the file to serve in dwebx:// requests",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beakerbrowser/dat-serve-resolve-path.git"
+    "url": "git+https://github.com/dbrowser/dwebx-serve-resolve-path.git"
   },
   "keywords": [
-    "dat"
+    "dwebx"
   ],
   "author": "Paul Frazee <pfrazee@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beakerbrowser/dat-serve-resolve-path/issues"
+    "url": "https://github.com/dbrowser/dwebx-serve-resolve-path/issues"
   },
-  "homepage": "https://github.com/beakerbrowser/dat-serve-resolve-path#readme",
+  "homepage": "https://github.com/dbrowser/dwebx-serve-resolve-path#readme",
   "dependencies": {
-    "parse-dat-url": "^3.0.2"
+    "parse-dwebx-urls": "git://github.com/DistributedWeb/parse-dwebx-urls.git#9662a6918d3f5c78fdee34d4b5a00774b002df2d"
   },
   "devDependencies": {
     "webpack": "^4.38.0",
