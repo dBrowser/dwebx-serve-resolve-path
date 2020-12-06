@@ -1,7 +1,7 @@
 {
   "name": "@dbrowser/dwebx-serve-resolve-path",
   "version": "1.0.0",
-  "description": "DBrowserX's method to find the file to serve in dwebx:// requests",
+  "description": "dBrowser's method to find the file to serve in dwebx:// requests",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
